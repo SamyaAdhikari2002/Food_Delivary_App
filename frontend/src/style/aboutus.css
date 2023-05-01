@@ -1,0 +1,128 @@
+.container_aboutus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+
+    background:url(../img/aboutus.jpeg);
+    background-size: cover;
+}
+    
+.row{
+display: flex;
+align-items:center;
+justify-content: space-between;
+} 
+.card{
+    max-width: 30ch;
+    max-height: 65ch;
+flex: 1 1 80rem;
+flex: wrap;
+margin: 10px 20px;
+margin-top: 50px;
+margin-bottom: 30px;
+align-items:end;
+background: #e3e39b;;
+box-shadow: 0 0 15px rgba(0,0,0,0.4);
+padding: 20px 30px;
+align-self: normal;
+align-items: center;
+border-radius: 1rem;
+transition: transform 500ms ease;
+
+ 
+}
+.card:hover{
+    transform: scale(1.05);
+}
+
+#ch{
+    display: none;
+}
+
+#ch:checked ~.hidden-content{
+    display: block;
+}
+
+#ch:checked ~ label{
+    display: none;
+}
+
+.hidden-content{
+    display: none;
+}
+#check{
+    display: none;
+}
+
+#check:checked ~.hidden-content{
+    display: block;
+}
+
+#check:checked ~ label{
+    display: none;
+}
+
+.hidden-content{
+    display: none;
+}
+#checkbox{
+    display: none;
+}
+
+#checkbox:checked ~.hidden-content{
+    display: block;
+}
+
+#checkbox:checked ~ label{
+    display: none;
+}
+
+.hidden-content{
+    display: none;
+}
+label{
+        display: inline-block; background: rgb(245, 243, 194);
+        align-items:baseline;
+        color:#e90808; text-align: center;
+        box-shadow: 0 0 15px rgba(0,0,0,0.4);
+        padding:10px 20px;
+        background-repeat: rgb(0 0 0 0);
+        border-radius: 5px;; -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px; -o-border-radius: 5px;
+}
+label:hover,
+label:focus{
+    transform: scale(1.05);
+    background-color: beige;
+}
+
+.card p{
+    margin-bottom: 10px;
+   
+}
+.card .card-content{
+
+    padding: 4em;
+    
+    background-size: cover;
+    padding: 8rem 0 0;
+}
+.card .card-content h4{
+    text-align: center;
+    color: #000000;
+    text-decoration: underline;
+    text-shadow: 0.5rem;
+    font-size: larger;
+    text-transform: uppercase;
+    
+}
+.card .card-title h4{
+    content:"";
+    position: absolute;
+    height: 4px;
+    left: calc(val(--padding)*-1)
+    bottom 0%;
+    width: calc(100%+var(--padding));
+    background-color: #000000;
+}

@@ -1,0 +1,13 @@
+.leftRight{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(253 186 116);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer
+}
+.leftRight:hover{
+    background-color: rgb(249 115 22)
+}

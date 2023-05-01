@@ -1,0 +1,143 @@
+
+.containerx{
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 20px 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* background: url(../img/bg.png) bottom; */
+    flex-direction: column;
+    background-size: cover;
+    background-color: #ff4e00;
+background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+
+}
+
+.containerx .contentx{
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.containerInfo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    position: relative;
+    padding: 10px 0;
+    display: flex;
+    color: white;
+}
+.icon{
+   /* color: white; */
+   width: 2rem;
+   height: 2rem;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+   
+}
+.text{
+    display: flex;
+    margin-left:20px ;
+    color: white;
+    
+    flex-direction: column;
+    font-weight: 300;
+}
+.text h3{
+    font-weight: 500;
+    color: black;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.text h4{
+    color: rgb(39, 1, 1);
+}
+.contactForm{
+    width: 40%;
+    padding: 2rem;
+  backdrop-filter: blur(10px);
+  color: black;
+  font-weight: 300;
+ 
+}
+.contactForm h2{
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.inputBox input{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000000;
+
+}
+.inputBox input::placeholder {
+    
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+}
+.inputBox textarea{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000000;
+
+}
+.inputBox textarea::placeholder {
+    
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+}
+.inputBox textarea::-webkit-scrollbar{
+    width: 1em;
+}
+.inputBox textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
+}
+.btn{
+    background-color: #00bcd4;
+    color: white;
+   
+}
+.btn:hover{
+    scale: 1.2 ;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   
+    color: black;
+}
+
+@media (max-width:1020px) {
+
+    .containerInfo{
+        flex-direction: column;
+    }
+    .contactForm{
+        width: 90%;
+    }
+}

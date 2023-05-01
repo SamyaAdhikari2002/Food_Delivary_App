@@ -1,0 +1,14 @@
+.btnb{
+    background-color: rgb(249 115 22);
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.btnb:hover{
+    background-color: rgb(92, 92, 248);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
